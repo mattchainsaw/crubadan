@@ -94,7 +94,7 @@ FIND() {
   P+=/
   local F=
   local LOCAL=$PREF
-  while [ -z $F ]
+  while [ -z "$F" ]
   do
     if [ ! -f $P/$LOCAL ]
     then 
